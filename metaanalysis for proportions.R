@@ -53,7 +53,8 @@ study_areas <- c("Democratic Republic of the Congo",
                          "Kenya","Libya","Malawi","Morocco","Mozambique",
                          "Rwanda","Senegal","Sudan","Tanzania",
                          "Uganda","Zambia","Zimbabwe","Nigeria", 
-                         "South Africa", "Kenya", "Egypt")
+                         "South Africa", "Kenya")
+                         
 
 # Create a new column to flag the countries to be highlighted
 africa$studyareas <- ifelse(africa$name %in% study_areas, "Study Areas", "Other")
